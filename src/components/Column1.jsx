@@ -3,7 +3,7 @@ import Button from '../components/Button';
 
 const Column1 = () => {
   return (
-    <div className='lg:w-1/3 mb-3'>
+    <section className='lg:w-1/3 mb-3'>
       <div className='flex items-center gap-5'>
         <Logo />
         <div>
@@ -63,7 +63,7 @@ const Column1 = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
