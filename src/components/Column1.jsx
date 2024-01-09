@@ -11,7 +11,7 @@ const Column1 = () => {
             Hi Mike,
           </h1>
           <p className='text-mdSlate text-xs font-simpleText font-bold lowercase'>
-            Welcom Back.
+            Welcome Back.
           </p>
         </div>
       </div>

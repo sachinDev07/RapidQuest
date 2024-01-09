@@ -1,4 +1,5 @@
 import Column1 from '../components/Column1';
+import Column2 from '../components/Column2';
 import Navbar from '../components/Navbar';
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <div className='lg:flex'>
       <Navbar />
       <Column1 />
+      <Column2 />
     </div>
   );
 };
