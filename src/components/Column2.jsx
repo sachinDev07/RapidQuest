@@ -1,6 +1,31 @@
-import React from 'react';
+import BarChart from './BarChart';
+import { UserData } from '../utils/constant';
+import { useState } from 'react';
 
 const Column2 = () => {
+  const [userData, setUserData] = useState({
+    labels: UserData.map((data) => data.year),
+    datasets: [
+      {
+        label: '',
+        data: UserData.map((data) => data.userGain),
+        backgroundColor: ['#0800A3'],
+        barThickness: 12,
+      },
+      {
+        label: '',
+        data: UserData.map((data) => data.userGain),
+        backgroundColor: ['#4935FF'],
+        barThickness: 12,
+      },
+      {
+        label: '',
+        data: UserData.map((data) => data.userGain),
+        backgroundColor: ['#85AFFF'],
+        barThickness: 12,
+      },
+    ],
+  });
   return (
     <section className='lg:w-1/3 mt-6 mb-6 py-12'>
       <div className='mb-6'>
@@ -64,6 +89,7 @@ const Column2 = () => {
           </div>
         </div>
 
+        <BarChart charData={userData} />
       </div>
     </section>
   );

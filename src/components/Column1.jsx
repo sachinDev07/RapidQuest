@@ -46,6 +46,7 @@ const Column1 = () => {
             Withdrawal Transfer to Bank-XX11
           </p>
         </div>
+        <div className='mt-4 bg-slate-300 h-[1px]'></div>
         <div>
           <span className='block mt-6 text-xs text-mdSlate font-medium'>
             2020-07-21
@@ -54,6 +55,7 @@ const Column1 = () => {
             Withdrawal Transfer to Bank-XX11
           </p>
         </div>
+        <div className='mt-4 bg-slate-300 h-[1px]'></div>
         <div>
           <span className='block mt-6 text-xs text-mdSlate font-medium'>
             2020-07-16
@@ -62,6 +64,7 @@ const Column1 = () => {
             Withdrawal Transfer to Bank-XX11
           </p>
         </div>
+        <div className='mt-4 bg-slate-300 h-[1px]'></div>
       </div>
     </section>
   );
