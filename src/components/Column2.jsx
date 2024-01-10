@@ -1,8 +1,10 @@
 import BarChart from './BarChart';
 import { UserData } from '../utils/constant';
 import { useState } from 'react';
+import { useSlider } from '../context/SliderContext';
 
 const Column2 = () => {
+  const { isSliderVisible, toggleSlider } = useSlider();
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [
@@ -89,7 +91,9 @@ const Column2 = () => {
           </div>
         </div>
 
-        <BarChart charData={userData} />
+        <div onClick={toggleSlider}>
+          <BarChart charData={userData} />
+        </div>
       </div>
     </section>
   );
