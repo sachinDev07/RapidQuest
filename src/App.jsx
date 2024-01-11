@@ -4,7 +4,7 @@ import { SliderProvider } from './context/SliderContext';
 
 function App() {
   return (
-    <div className='p-6'>
+    <div className='p-6 lg:p-0'>
       <SliderProvider>
         <BellIcon />
         <Outlet />
