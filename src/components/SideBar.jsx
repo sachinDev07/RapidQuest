@@ -16,7 +16,7 @@ const SideBar = () => {
     setSelectedIcon(iconName === selectedIcon ? null : iconName);
   };
   return (
-    <section className='hidden lg:block py-2'>
+    <section className='hidden lg:block py-4'>
       <div className='flex flex-col justify-between w-14 items-center h-full text-mdSlate '>
         <div className='flex flex-col justify-between gap-14'>
           <div className='space-y-5'>

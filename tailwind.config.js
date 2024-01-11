@@ -6,7 +6,7 @@ export default {
       colors: {
         primary: '#4935ff',
         secondary: '#000000',
-        bgSlate: '#fafafa',
+        bgSlate: '#f8f7f7',
         mdSlate: '#646464',
       },
       fontFamily: {

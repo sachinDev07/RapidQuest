@@ -9,7 +9,7 @@ const RangeSlider = ({ setEmployeContributionfun }) => {
   };
 
   return (
-    <div className='container mt-4'>
+    <div className='container mt-1'>
       <div className='range'>
         <div className='range__content'>
           <div className='range__slider'>

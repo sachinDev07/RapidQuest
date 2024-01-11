@@ -37,7 +37,7 @@ const BarChart = ({ charData }) => {
   };
 
   return (
-    <div className='w-[280px] mt-6'>
+    <div className='w-full lg:h-[200px] flex justify-center mt-6'>
       <Bar data={charData} options={options} />
     </div>
   );
